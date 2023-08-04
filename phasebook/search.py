@@ -24,7 +24,6 @@ def search():
 def search_users(users, id=None, name=None, age=None, occupation=None):
     age = int(age) if age is not None else None
     results = []
-    print(id,name,age,occupation)
 
     for user in users:
         score = 0
